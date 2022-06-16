@@ -8,6 +8,7 @@ struct node {
     struct node *next;
 };
 
+void print_list();
 void add_at_beg();
 void add_after(int item);
 void add_before(int item);
